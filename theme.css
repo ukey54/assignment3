@@ -1,0 +1,109 @@
+
+/*-------------------- common ----------------------*/
+
+#logo{
+    height: 1.5rem;
+    float: left;
+  }
+
+  .navbar{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: blue;
+    height: 2rem;
+    font-size: large;
+  }
+
+  .nav-ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;   
+  }
+  .nav-ul li{
+      display: inline;
+  }
+
+  .nav-ul .nav-li:hover{
+    border-bottom-width: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+  }
+
+  .nav-link{
+    color:white;
+    text-decoration: none;
+    margin: 1rem;
+    }
+
+    .nav-link-active{
+    border-bottom-width: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    }
+
+  main,
+  header,
+  footer{
+    padding: 1rem;
+  }
+
+
+
+/*-------------------- index ----------------------*/
+
+body{
+    margin:0;
+  }
+
+  
+  #i:hover{
+    color: lightblue;
+  }
+
+  #i:active{
+    color: blueviolet;
+  }
+
+/*------------------- contact ---------------------*/
+
+.star{
+    color: red;
+}        
+
+fieldset{
+    border: none;
+    padding: 0px;
+}
+
+.buttons{
+  padding: 0.5em;
+}
+.buttons:active{
+  background-color: lightblue;
+}
+
+.reset{
+  background-color: blue;
+}
+
+.submit{
+  background-color: green;
+}
+
+/*------------------ portfolio --------------------*/
+
+.table{
+    border-collapse: collapse;
+}
+
+.table thead th,
+.table tbody th,
+.table tbody td {
+    border: solid black;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+}
